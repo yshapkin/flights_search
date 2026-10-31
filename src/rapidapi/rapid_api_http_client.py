@@ -43,6 +43,24 @@ class RapidApiHttpClient:
         response = self._http_client.get(parameters)
         return response.json()
 
+    def get_flights_sky_id_list(self) -> Any:
+        """Returns the Sky ID list endpoint's decoded JSON payload unchanged.
+
+        Raises:
+            requests.RequestException: The request fails or returns a non-200
+                status, or its response cannot be decoded as JSON.
+        """
+        parameters = request_parameters.RequestParameters(
+            url="/flights/skyId-list",
+            headers={
+                "x-rapidapi-host": self._parameters.host,
+                "x-rapidapi-key": self._parameters.key,
+            },
+            expected_status_codes=[200],
+        )
+        response = self._http_client.get(parameters)
+        return response.json()
+
     def get_flights_search_roundtrip(
         self, from_entity_id: str, params: Mapping[str, str]
     ) -> Any:

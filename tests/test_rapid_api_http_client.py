@@ -109,3 +109,62 @@ def test_get_flights_airports_propagates_invalid_json() -> None:
         client.get_flights_airports()
 
     assert failure.value is error
+
+
+@pytest.mark.parametrize("payload", [{"data": [{"skyId": "FRA"}]}, [], None])
+def test_get_flights_sky_id_list_sends_headers_and_returns_json(
+    payload: Any,
+) -> None:
+    transport = mock.Mock(spec=http_client.HttpClient)
+    transport.get.return_value.json.return_value = payload
+    client = rapid_api_http_client.RapidApiHttpClient(
+        transport,
+        rapid_api_parameters.RapidApiParameters("test-host", "test-key"),
+    )
+
+    assert client.get_flights_sky_id_list() is payload
+
+    transport.get.assert_called_once()
+    parameters = transport.get.call_args.args[0]
+    assert parameters.url == "/flights/skyId-list"
+    assert parameters.headers == {
+        "x-rapidapi-host": "test-host",
+        "x-rapidapi-key": "test-key",
+    }
+    assert parameters.params is None
+    assert parameters.expected_status_codes == (200,)
+    transport.get.return_value.json.assert_called_once_with()
+
+
+@pytest.mark.parametrize("error_type", [requests.Timeout, requests.HTTPError])
+def test_get_flights_sky_id_list_propagates_http_errors(
+    error_type: type[requests.RequestException],
+) -> None:
+    error = error_type("request failed")
+    transport = mock.Mock(spec=http_client.HttpClient)
+    transport.get.side_effect = error
+    client = rapid_api_http_client.RapidApiHttpClient(
+        transport,
+        rapid_api_parameters.RapidApiParameters("test-host", "test-key"),
+    )
+
+    with pytest.raises(error_type) as failure:
+        client.get_flights_sky_id_list()
+
+    assert failure.value is error
+    transport.get.return_value.json.assert_not_called()
+
+
+def test_get_flights_sky_id_list_propagates_invalid_json() -> None:
+    error = requests.exceptions.JSONDecodeError("Invalid JSON", "", 0)
+    transport = mock.Mock(spec=http_client.HttpClient)
+    transport.get.return_value.json.side_effect = error
+    client = rapid_api_http_client.RapidApiHttpClient(
+        transport,
+        rapid_api_parameters.RapidApiParameters("test-host", "test-key"),
+    )
+
+    with pytest.raises(requests.exceptions.JSONDecodeError) as failure:
+        client.get_flights_sky_id_list()
+
+    assert failure.value is error

@@ -34,14 +34,7 @@ def main() -> None:
     client = rapid_api_http_client.RapidApiHttpClient(
         transport=transport, parameters=configuration
     )
-    payload = client.get_flights_search_roundtrip(
-        from_entity_id="PARI",
-        params={
-            "originSkyId": "FRA",
-            "travelDate": "2023-10-05",
-            "currency": "EUR",
-        },
-    )
+    payload = client.get_flights_sky_id_list()
     logger.info("Flight search response: %s", payload)
 
 
