@@ -1,5 +1,5 @@
 [project]
-name = "fl-serch"
+name = "FlightsSearch"
 version = "0.1.0"
 description = "Flight search experiments"
 requires-python = ">=3.11"

@@ -10,7 +10,7 @@ Place new code, unit tests, and specifications in their respective directories.
 
 Follow the Google Python Style Guide:
 https://google.github.io/styleguide/pyguide.html
-See `.github/skills/python/SKILL.md` for project-specific compatibility
+See `.github/skills/lang-python/SKILL.md` for project-specific compatibility
 exceptions and the Google-style rules enforced by Ruff.
 
 Use `uv` to manage Python dependencies and the project virtual environment.

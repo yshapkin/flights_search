@@ -1,5 +1,5 @@
 ---
-name: python
+name: lang-python
 description: 'Implement, debug, refactor, and test Python code in this repository. Use for Python modules, type hints, package imports and exports, uv dependencies, pytest tests, Ruff diagnostics, and HTTP client changes.'
 ---
 
