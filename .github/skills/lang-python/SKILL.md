@@ -10,20 +10,6 @@ description: 'Implement, debug, refactor, and test Python code in this repositor
 Use this skill for Python implementation, debugging, dependency management,
 testing, and lint fixes. Follow the repository instructions and existing APIs.
 
-## Local Setup
-
-Install the locked runtime and development dependencies from the repository root
-with `uv sync --locked`. Application, test, lint, and dependency-management
-commands are defined in the [project instructions](../../copilot-instructions.md).
-
-The application uses these environment variables, which can be supplied in the
-Git-ignored `.env` file:
-
-```dotenv
-RAPID_API_HOST=flights-sky.p.rapidapi.com
-RAPID_API_KEY=your-rapidapi-key
-```
-
 Never commit credentials or include real secrets in documentation or test output.
 
 ## Code Style

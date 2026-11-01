@@ -294,7 +294,7 @@ wheels = [
 ]
 
 [[package]]
-name = "fl-serch"
+name = "flightssearch"
 version = "0.1.0"
 source = { virtual = "." }
 dependencies = [

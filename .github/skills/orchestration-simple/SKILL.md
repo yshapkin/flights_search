@@ -40,7 +40,7 @@ requirement contract, approval gates, and the shared `correction_count`.
 ## Correction Loop
 
 - On tester `FAIL`, manager classifies findings using the
-  [failure-routing and approval rules](../../agents/manager.agent.md#corrections-and-blockers),
+  [failure-routing and approval rules](../../agents/manager.agent.md),
   then checks the ten-cycle budget and increments before each corrective
   assignment or batch. Dispatch the responsible owner with requirement IDs,
   unchanged failing expectations, expected versus observed behavior, and

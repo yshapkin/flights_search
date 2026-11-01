@@ -25,6 +25,24 @@ class RapidApiHttpClient:
         self._http_client = transport
         self._parameters = parameters
 
+    def get_config(self) -> Any:
+        """Returns the config endpoint's decoded JSON payload unchanged.
+
+        Raises:
+            requests.RequestException: The request fails or returns a non-200
+                status, or its response cannot be decoded as JSON.
+        """
+        parameters = request_parameters.RequestParameters(
+            url="/get-config",
+            headers={
+                "x-rapidapi-host": self._parameters.host,
+                "x-rapidapi-key": self._parameters.key,
+            },
+            expected_status_codes=[200],
+        )
+        response = self._http_client.get(parameters)
+        return response.json()
+
     def get_flights_airports(self) -> Any:
         """Returns the airport endpoint's decoded JSON payload unchanged.
 

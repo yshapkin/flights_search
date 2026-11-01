@@ -1,0 +1,236 @@
+country,market,locale,currencyTitle,currency,currencySymbol,site
+Andorra,AD,es-ES,Euro,EUR,€,www.skyscanner.net
+United Arab Emirates,AE,en-US,United Arab Emirates Dirham,AED,AED,www.skyscanner.ae
+Afghanistan,AF,en-GB,Afghan Afghani,AFN,AFN,www.skyscanner.net
+Antigua and Barbuda,AG,en-GB,East Caribbean Dollar,XCD,$,www.skyscanner.net
+Anguilla,AI,en-GB,East Caribbean Dollar,XCD,$,www.skyscanner.net
+Albania,AL,en-GB,Albanian Lek,ALL,Lek,www.skyscanner.net
+Armenia,AM,ru-RU,Armenian Dram,AMD,դր.,www.skyscanner.net
+Angola,AO,pt-PT,Angolan Kwanza,AOA,Kz,www.skyscanner.net
+Antarctica,AQ,en-GB,US Dollar,USD,$,www.skyscanner.net
+Argentina,AR,es-MX,Argentine Peso,ARS,$,www.espanol.skyscanner.com
+American Samoa,AS,en-GB,US Dollar,USD,$,www.skyscanner.net
+Austria,AT,de-DE,Euro,EUR,€,www.skyscanner.at
+Australia,AU,en-GB,Australian Dollar,AUD,$,www.skyscanner.com.au
+Aruba,AW,en-GB,Aruban Florin,AWG,Afl.,www.skyscanner.net
+Azerbaijan,AZ,en-GB,Azerbaijani Manat,AZN,₼,www.skyscanner.net
+Bosnia and Herzegovina,BA,en-GB,Bosnia-Herzegovina Convertible Mark,BAM,КМ,www.skyscanner.net
+Barbados,BB,en-GB,Barbadian Dollar,BBD,$,www.skyscanner.net
+Bangladesh,BD,en-GB,Bangladeshi Taka,BDT,BDT,www.skyscanner.net
+Belgium,BE,nl-NL,Euro,EUR,€,www.skyscanner.net
+Burkina Faso,BF,en-GB,West African CFA Franc,XOF,F,www.skyscanner.net
+Bulgaria,BG,bg-BG,Bulgarian Lev,BGN,лв.,www.skyscanner.net
+Bahrain,BH,en-GB,Bahraini Dinar,BHD,د.ب.‏,www.skyscanner.net
+Burundi,BI,en-GB,Burundian Franc,BIF,FBu,www.skyscanner.net
+Benin,BJ,en-GB,West African CFA Franc,XOF,F,www.skyscanner.net
+Saint Barthelemy,BL,en-GB,Euro,EUR,€,www.skyscanner.net
+Bermuda,BM,en-GB,Bermudan Dollar,BMD,$,www.skyscanner.com
+Brunei,BN,en-GB,Brunei Dollar,BND,$,www.skyscanner.net
+Bolivia,BO,es-MX,Bolivian Boliviano,BOB,Bs,www.espanol.skyscanner.com
+Caribbean Netherlands,BQ,en-GB,US Dollar,USD,$,www.skyscanner.net
+Brazil,BR,pt-BR,Brazilian Real,BRL,R$,www.skyscanner.com.br
+Bahamas,BS,en-GB,Bahamian Dollar,BSD,$,www.skyscanner.net
+Bhutan,BT,en-GB,Bhutanese Ngultrum,BTN,Nu.,www.skyscanner.net
+Botswana,BW,en-GB,Botswanan Pula,BWP,P,www.skyscanner.net
+Belarus,BY,ru-RU,Belarusian Ruble,BYN,Br,www.skyscanner.net
+Belize,BZ,en-GB,Belize Dollar,BZD,BZ$,www.skyscanner.com
+Canada,CA,en-US,Canadian Dollar,CAD,C$,www.skyscanner.ca
+Cocos (Keeling) Islands,CC,en-GB,Australian Dollar,AUD,$,www.skyscanner.net
+DR Congo,CD,en-GB,Congolese Franc,CDF,FC,www.skyscanner.net
+Central African Republic,CF,en-GB,Central African CFA Franc,XAF,F,www.skyscanner.net
+Congo,CG,en-GB,Central African CFA Franc,XAF,F,www.skyscanner.net
+Switzerland,CH,de-DE,2,CHF,CHF,www.skyscanner.ch
+Ivory Coast,CI,fr-FR,West African CFA Franc,XOF,F,www.skyscanner.fr
+Cook Islands,CK,en-GB,New Zealand Dollar,NZD,$,www.skyscanner.net
+Chile,CL,es-MX,Chilean Peso,CLP,$,www.espanol.skyscanner.com
+Cameroon,CM,en-GB,Central African CFA Franc,XAF,F,www.skyscanner.net
+China,CN,zh-CN,Chinese Yuan,CNY,¥,www.tianxun.com
+Colombia,CO,es-MX,Colombian Peso,COP,$,www.espanol.skyscanner.com
+Costa Rica,CR,es-MX,Costa Rican Colón,CRC,₡,www.espanol.skyscanner.com
+Cuba,CU,es-MX,Cuban Peso,CUP,$MN,www.espanol.skyscanner.com
+Cape Verde,CV,en-GB,Cape Verdean Escudo,CVE,$,www.skyscanner.net
+Curacao,CW,en-GB,Netherlands Antillean Guilder,ANG,NAf.,www.skyscanner.net
+Christmas Island,CX,en-GB,Australian Dollar,AUD,$,www.skyscanner.net
+Cyprus,CY,el-GR,Euro,EUR,€,www.skyscanner.net
+Czech Republic,CZ,cs-CZ,Czech Koruna,CZK,Kč,www.skyscanner.cz
+Germany,DE,de-DE,Euro,EUR,€,www.skyscanner.de
+Djibouti,DJ,en-GB,Djiboutian Franc,DJF,Fdj,www.skyscanner.net
+Denmark,DK,da-DK,Danish Krone,DKK,kr.,www.skyscanner.dk
+Dominica,DM,en-GB,East Caribbean Dollar,XCD,$,www.skyscanner.net
+Dominican Republic,DO,es-MX,Dominican Peso,DOP,RD$,www.espanol.skyscanner.com
+Algeria,DZ,fr-FR,Algerian Dinar,DZD,د.ج.‏,www.skyscanner.net
+Ecuador,EC,es-MX,US Dollar,USD,$,www.espanol.skyscanner.com
+Estonia,EE,en-GB,Euro,EUR,€,www.skyscanner.net
+Egypt,EG,en-GB,Egyptian Pound,EGP,ج.م.‏,www.skyscanner.net
+Eritrea,ER,en-GB,Eritrean Nakfa,ERN,Nfk,www.skyscanner.net
+Spain,ES,es-ES,Euro,EUR,€,www.skyscanner.es
+Ethiopia,ET,en-GB,Ethiopian Birr,ETB,Br,www.skyscanner.net
+Finland,FI,fi-FI,Euro,EUR,€,www.skyscanner.fi
+Fiji,FJ,en-GB,Fijian Dollar,FJD,$,www.skyscanner.net
+Falkland Islands,FK,en-GB,British Pound,GBP,£,www.skyscanner.net
+Micronesia,FM,en-GB,US Dollar,USD,$,www.skyscanner.net
+Faroe Islands,FO,en-GB,Danish Krone,DKK,kr.,www.skyscanner.net
+France,FR,fr-FR,Euro,EUR,€,www.skyscanner.fr
+Gabon,GA,en-GB,Central African CFA Franc,XAF,F,www.skyscanner.net
+Grenada,GD,en-GB,East Caribbean Dollar,XCD,$,www.skyscanner.net
+Georgia,GE,en-GB,Georgian Lari,GEL,₾,www.skyscanner.net
+French Guiana,GF,fr-FR,Euro,EUR,€,www.skyscanner.fr
+Guernsey,GG,en-GB,British Pound,GBP,£,www.skyscanner.gg
+Ghana,GH,en-GB,Ghanaian Cedi,GHS,GH¢,www.skyscanner.net
+Gibraltar,GI,en-GB,Gibraltar Pound,GIP,£,www.skyscanner.net
+Greenland,GL,en-GB,Danish Krone,DKK,kr.,www.skyscanner.net
+Gambia,GM,en-GB,Gambian Dalasi,GMD,D,www.skyscanner.net
+Guinea,GN,en-GB,Guinean Franc,GNF,FG,www.skyscanner.net
+Guadeloupe,GP,fr-FR,Euro,EUR,€,www.skyscanner.fr
+Equatorial Guinea,GQ,en-GB,Central African CFA Franc,XAF,F,www.skyscanner.net
+Greece,GR,el-GR,Euro,EUR,€,gr.skyscanner.com
+South Georgia & South Sandwich Islands,GS,en-GB,British Pound,GBP,£,www.skyscanner.net
+Guatemala,GT,es-MX,Guatemalan Quetzal,GTQ,Q,www.espanol.skyscanner.com
+Guam,GU,en-GB,US Dollar,USD,$,www.skyscanner.net
+Guinea-Bissau,GW,en-GB,Guinean Franc,GNF,FG,www.skyscanner.net
+Guyana,GY,en-GB,Guyanaese Dollar,GYD,$,www.skyscanner.com
+Hong Kong,HK,zh-TW,Hong Kong Dollar,HKD,HK$,www.skyscanner.com.hk
+Honduras,HN,es-MX,Honduran Lempira,HNL,L.,www.espanol.skyscanner.com
+Croatia,HR,en-GB,Croatian Kuna,HRK,kn,www.skyscanner.net
+Haiti,HT,en-GB,Haitian Gourde,HTG,G,www.skyscanner.net
+Hungary,HU,hu-HU,Hungarian Forint,HUF,Ft,www.skyscanner.hu
+Indonesia,ID,id-ID,Indonesian Rupiah,IDR,Rp,www.skyscanner.co.id
+Ireland,IE,en-GB,Euro,EUR,€,www.skyscanner.ie
+Israel,IL,en-US,US Dollar,USD,$,www.skyscanner.co.il
+India,IN,en-GB,Indian Rupee,INR,₹,www.skyscanner.co.in
+Iraq,IQ,en-GB,Iraqi Dinar,IQD,د.ع.‏,www.skyscanner.net
+Iran,IR,en-GB,Iranian Rial,IRR,ريال,www.skyscanner.net
+Iceland,IS,en-GB,Icelandic Króna,ISK,kr.,www.skyscanner.net
+Italy,IT,it-IT,Euro,EUR,€,www.skyscanner.it
+Jamaica,JM,en-GB,Jamaican Dollar,JMD,J$,www.skyscanner.net
+Jordan,JO,en-GB,Jordanian Dinar,JOD,د.ا.‏,www.skyscanner.net
+Japan,JP,ja-JP,Japanese Yen,JPY,¥,www.skyscanner.jp
+Kenya,KE,en-GB,Kenyan Shilling,KES,S,www.skyscanner.net
+Kyrgyzstan,KG,ru-RU,2,KGS,сом,www.skyscanner.net
+Cambodia,KH,en-GB,Cambodian Riel,KHR,KHR,www.skyscanner.net
+Kiribati,KI,en-GB,Australian Dollar,AUD,$,www.skyscanner.net
+Comoros,KM,en-GB,Comorian Franc,KMF,CF,www.skyscanner.net
+Saint Kitts and Nevis,KN,en-GB,East Caribbean Dollar,XCD,$,www.skyscanner.net
+Kosovo,KO,en-GB,Euro,EUR,€,www.skyscanner.net
+North Korea,KP,en-GB,North Korean Won,KPW,₩,www.skyscanner.net
+South Korea,KR,ko-KR,South Korean Won,KRW,₩,www.skyscanner.co.kr
+Kuwait,KW,en-GB,Kuwaiti Dinar,KWD,د.ك.‏,www.skyscanner.net
+Cayman Islands,KY,en-GB,Cayman Islands Dollar,KYD,$,www.skyscanner.net
+Kazakhstan,KZ,ru-RU,2,KZT,Т,www.skyscanner.net
+Laos,LA,en-GB,Laotian Kip,LAK,₭,www.skyscanner.net
+Lebanon,LB,en-GB,Lebanese Pound,LBP,ل.ل.‏,www.skyscanner.net
+Saint Lucia,LC,en-GB,East Caribbean Dollar,XCD,$,www.skyscanner.net
+Liechtenstein,LI,de-DE,2,CHF,CHF,www.skyscanner.net
+Sri Lanka,LK,en-GB,Sri Lankan Rupee,LKR,Rp,www.skyscanner.net
+Liberia,LR,en-GB,Liberian Dollar,LRD,$,www.skyscanner.net
+Lesotho,LS,en-GB,Lesotho Loti,LSL,M,www.skyscanner.net
+Lithuania,LT,en-GB,Euro,EUR,€,www.skyscanner.net
+Luxembourg,LU,en-GB,Euro,EUR,€,www.skyscanner.net
+Latvia,LV,en-GB,Euro,EUR,€,www.skyscanner.net
+Libya,LY,en-GB,Libyan Dinar,LYD,د.ل.‏,www.skyscanner.net
+Morocco,MA,fr-FR,Euro,EUR,€,www.skyscanner.fr
+Monaco,MC,en-GB,Euro,EUR,€,www.skyscanner.net
+Moldova,MD,en-GB,Moldovan Leu,MDL,lei,www.skyscanner.net
+Montenegro,ME,en-GB,Euro,EUR,€,www.skyscanner.net
+Madagascar,MG,en-GB,Malagasy Ariary,MGA,Ar,www.skyscanner.net
+Marshall Islands,MH,en-GB,US Dollar,USD,$,www.skyscanner.net
+North Macedonia,MK,en-GB,Macedonian Denar,MKD,ден.,www.skyscanner.net
+Mali,ML,en-GB,West African CFA Franc,XOF,F,www.skyscanner.net
+Myanmar,MM,en-GB,Myanmar Kyat,MMK,K,www.skyscanner.net
+Mongolia,MN,en-GB,Mongolian Tugrik,MNT,₮,www.skyscanner.net
+Macau,MO,zh-TW,Macanese Pataca,MOP,MOP$,www.skyscanner.net
+Northern Mariana Islands,MP,en-GB,US Dollar,USD,$,www.skyscanner.net
+Martinique,MQ,fr-FR,Euro,EUR,€,www.skyscanner.fr
+Mauritania,MR,en-GB,Mauritanian Ouguiya,MRO,UM,www.skyscanner.net
+Montserrat,MS,en-GB,East Caribbean Dollar,XCD,$,www.skyscanner.net
+Malta,MT,en-GB,Euro,EUR,€,www.skyscanner.net
+Mauritius,MU,en-GB,Mauritian Rupee,MUR,Rs,www.skyscanner.net
+Maldives,MV,en-GB,Maldivian Rufiyaa,MVR,MVR,www.skyscanner.net
+Malawi,MW,en-GB,Malawian Kwacha,MWK,MK,www.skyscanner.net
+Mexico,MX,es-MX,Mexican Peso,MXN,$,www.skyscanner.com.mx
+Malaysia,MY,en-GB,Malaysian Ringgit,MYR,RM,www.skyscanner.com.my
+Mozambique,MZ,en-GB,Mozambican Metical,MZN,MT,www.skyscanner.net
+Namibia,NA,en-GB,Namibian Dollar,NAD,$,www.skyscanner.net
+New Caledonia,NC,en-GB,CFP Franc,XPF,F,www.skyscanner.net
+Niger,NE,en-GB,West African CFA Franc,XOF,F,www.skyscanner.net
+Nigeria,NG,en-GB,Nigerian Naira,NGN,₦,www.skyscanner.net
+Nicaragua,NI,es-MX,Nicaraguan Córdoba,NIO,C$,www.espanol.skyscanner.com
+Netherlands,NL,nl-NL,Euro,EUR,€,www.skyscanner.nl
+Norway,NO,nb-NO,Norwegian Krone,NOK,kr,www.skyscanner.no
+Nepal,NP,en-GB,Nepalese Rupee,NPR,रु,www.skyscanner.net
+Nauru,NR,en-GB,Australian Dollar,AUD,$,www.skyscanner.net
+Niue,NU,en-GB,New Zealand Dollar,NZD,$,www.skyscanner.net
+New Zealand,NZ,en-GB,New Zealand Dollar,NZD,$,www.skyscanner.co.nz
+Oman,OM,en-GB,Omani Rial,OMR,ر.ع.‏,www.skyscanner.net
+Panama,PA,es-MX,Panamanian Balboa,PAB,B/.,www.espanol.skyscanner.com
+Peru,PE,es-MX,2,PEN,S/.,www.espanol.skyscanner.com
+French Polynesia,PF,fr-FR,CFP Franc,XPF,F,www.skyscanner.fr
+Papua New Guinea,PG,en-GB,Papua New Guinean Kina,PGK,K,www.skyscanner.net
+Philippines,PH,en-GB,Philippine Piso,PHP,P,www.skyscanner.com.ph
+Pakistan,PK,en-GB,Pakistani Rupee,PKR,Rs,www.skyscanner.net
+Poland,PL,pl-PL,Polish Zloty,PLN,zł,www.skyscanner.pl
+St. Pierre and Miquelon,PM,en-GB,Euro,EUR,€,www.skyscanner.net
+Puerto Rico,PR,es-MX,US Dollar,USD,$,www.espanol.skyscanner.com
+Palestinian Territories,PS,en-US,US Dollar,USD,$,www.skyscanner.net
+Portugal,PT,pt-PT,Euro,EUR,€,www.skyscanner.pt
+Palau,PW,en-GB,US Dollar,USD,$,www.skyscanner.net
+Paraguay,PY,es-MX,Paraguayan Guarani,PYG,Gs,www.espanol.skyscanner.com
+Qatar,QA,en-GB,Qatari Rial,QAR,ر.ق.‏,www.skyscanner.net
+Reunion,RE,fr-FR,Euro,EUR,€,www.skyscanner.fr
+Romania,RO,ro-RO,Romanian Leu,RON,lei,www.skyscanner.ro
+Serbia,RS,en-GB,Serbian Dinar,RSD,Дин.,www.skyscanner.net
+Russia,RU,ru-RU,Russian Ruble,RUB,₽,www.skyscanner.ru
+Rwanda,RW,en-GB,Rwandan Franc,RWF,RWF,www.skyscanner.net
+Saudi Arabia,SA,ar-AE,Saudi Riyal,SAR,SAR,www.skyscanner.com.sa
+Solomon Islands,SB,en-GB,Solomon Islands Dollar,SBD,$,www.skyscanner.net
+Seychelles,SC,en-GB,Seychellois Rupee,SCR,Rs,www.skyscanner.net
+Sudan,SD,en-GB,Sudanese Pound,SDG,ج.س.‏,www.skyscanner.net
+Sweden,SE,sv-SE,Swedish Krona,SEK,SEK,www.skyscanner.se
+Singapore,SG,en-GB,Singapore Dollar,SGD,$,www.skyscanner.com.sg
+St. Helena,SH,en-GB,St. Helena Pound,SHP,£,www.skyscanner.net
+Slovenia,SI,en-GB,Euro,EUR,€,www.skyscanner.net
+Slovakia,SK,en-GB,Euro,EUR,€,www.skyscanner.net
+Sierra Leone,SL,en-GB,Sierra Leonean Leone,SLL,Le,www.skyscanner.net
+Senegal,SN,fr-FR,West African CFA Franc,XOF,F,www.skyscanner.fr
+Somalia,SO,en-GB,Somali Shilling,SOS,S,www.skyscanner.net
+Suriname,SR,en-GB,Surinamese Dollar,SRD,$,www.skyscanner.net
+South Sudan,SS,en-GB,Sudanese Pound,SDG,ج.س.‏,www.skyscanner.net
+Sao Tome and Principe,ST,en-GB,São Tomé & Príncipe Dobra,STD,Db,www.skyscanner.net
+El Salvador,SV,es-MX,US Dollar,USD,$,www.espanol.skyscanner.com
+St Maarten,SX,en-GB,Netherlands Antillean Guilder,ANG,NAf.,www.skyscanner.net
+Syria,SY,en-GB,Syrian Pound,SYP,ل.س.‏,www.skyscanner.net
+Eswatini,SZ,en-GB,Swazi Lilangeni,SZL,E,www.skyscanner.net
+Turks and Caicos Islands,TC,en-GB,US Dollar,USD,$,www.skyscanner.net
+Chad,TD,en-GB,Central African CFA Franc,XAF,F,www.skyscanner.net
+Togo,TG,en-GB,West African CFA Franc,XOF,F,www.skyscanner.net
+Thailand,TH,th-TH,Thai Baht,THB,฿,www.skyscanner.co.th
+Tajikistan,TJ,en-GB,Tajikistani Somoni,TJS,TJS,www.skyscanner.net
+East Timor,TL,en-GB,US Dollar,USD,$,www.skyscanner.net
+Turkmenistan,TM,en-GB,Turkmenistani Manat,TMT,m,www.skyscanner.net
+Tunisia,TN,fr-FR,Euro,EUR,€,www.skyscanner.fr
+Tonga,TO,en-GB,Tongan Paʻanga,TOP,T$,www.skyscanner.net
+Turkey,TR,tr-TR,Turkish Lira,TRY,TL,www.skyscanner.com.tr
+Trinidad and Tobago,TT,en-GB,Trinidad & Tobago Dollar,TTD,TT$,www.skyscanner.net
+Tuvalu,TV,en-GB,Australian Dollar,AUD,$,www.skyscanner.net
+Taiwan,TW,zh-TW,New Taiwan Dollar,TWD,NT$,www.skyscanner.com.tw
+Tanzania,TZ,en-GB,Tanzanian Shilling,TZS,TSh,www.skyscanner.net
+Ukraine,UA,uk-UA,Ukrainian Hryvnia,UAH,грн.,www.skyscanner.com.ua
+Uganda,UG,en-GB,Ugandan Shilling,UGX,USh,www.skyscanner.net
+United Kingdom,UK,en-GB,British Pound,GBP,£,www.skyscanner.net
+United States,US,en-US,US Dollar,USD,$,www.skyscanner.com
+Uruguay,UY,es-MX,US Dollar,USD,$,www.espanol.skyscanner.com
+Uzbekistan,UZ,en-GB,Uzbekistani Som,UZS,сўм,www.skyscanner.net
+Vatican City,VA,it-IT,Euro,EUR,€,www.skyscanner.net
+Saint Vincent and the Grenadines,VC,en-GB,East Caribbean Dollar,XCD,$,www.skyscanner.net
+Venezuela,VE,es-MX,US Dollar,USD,$,www.espanol.skyscanner.com
+British Virgin Islands,VG,en-GB,US Dollar,USD,$,www.skyscanner.net
+US Virgin Islands,VI,en-GB,US Dollar,USD,$,www.skyscanner.net
+Vietnam,VN,vi-VN,Vietnamese Dong,VND,₫,www.skyscanner.com.vn
+Vanuatu,VU,en-GB,Vanuatu Vatu,VUV,VT,www.skyscanner.net
+Wallis and Futuna Islands,WF,en-GB,CFP Franc,XPF,F,www.skyscanner.net
+Samoa,WS,en-GB,Samoan Tala,WST,WS$,www.skyscanner.net
+Yemen,YE,en-GB,Yemeni Rial,YER,ر.ي.‏,www.skyscanner.net
+Mayotte,YT,en-GB,Euro,EUR,€,www.skyscanner.net
+South Africa,ZA,en-GB,South African Rand,ZAR,R,www.skyscanner.net
+Zambia,ZM,en-GB,Zambian Kwacha,ZMW,ZK,www.skyscanner.net
+Zimbabwe,ZW,en-GB,US Dollar,USD,$,www.skyscanner.net
