@@ -70,20 +70,22 @@ the selected mode.
 
 ## Correction Loop
 
-- Tester `FAIL`: manager checks the budget, increments once, and assigns developer
-  the requirement mismatch, unchanged failing tests, and tracebacks. Developer
-  fixes SOURCE ONLY. Manager then dispatches tester to rerun preserved regression
-  cases and integrated gates; reviewer runs only after `PASS`.
+- Tester `FAIL`: manager classifies findings using the
+  [failure-routing and approval rules](../../agents/manager.agent.md#corrections-and-blockers),
+  then checks the budget and increments before each corrective assignment or
+  independent batch. Assign the responsible owner the requirement mismatch,
+  unchanged failing expectations, and tracebacks. Manager then dispatches tester
+  to rerun preserved regression cases and integrated gates; reviewer runs only
+  after `PASS`.
 - Reviewer production findings: manager allocates a correction cycle to developer,
   then tester, then reviewer. A passing pre-edit report is no longer sufficient.
 - Missing-test findings: manager allocates a correction cycle to tester to add
   requirement-based cases, never to developer. Preserve existing failing
   expectations. If new tests expose a source defect, allocate the next cycle to
   developer. Otherwise return passing updated test evidence to reviewer.
-- Production lint/format repairs belong to developer; test-only repairs belong
-  to tester. Never weaken tests, add skips/xfails, reduce thresholds, or alter
-  test configuration to force a pass. Invalid specification/test assumptions
-  require user clarification and explicit approval of any expectation correction.
+- Never weaken tests, add skips/xfails, reduce thresholds, or alter test
+  configuration to force a pass. Invalid specification/test assumptions require
+  user clarification and explicit approval of any expectation correction.
 - Initial execution is cycle `0`. Increment before each corrective assignment or
   independent corrective batch. Its ensuing test rerun and review stay within
   that cycle. All workers, test failures, and review rejections share ONE budget

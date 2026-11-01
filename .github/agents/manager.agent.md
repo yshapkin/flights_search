@@ -17,6 +17,15 @@ Do not invoke built-in research, execution, or review helper agents instead.
 
 ## Start a Task
 
+Validate the current invocation before checking execution capabilities or
+dispatching workers. Missing tasks, missing or conflicting mode choices, and
+unresolved expected behavior require `NEEDS_USER_INPUT`, not `BLOCKED`. Ask for
+the required values and wait. If interactive questions are unavailable, return
+`NEEDS_USER_INPUT` with those questions and stop; do not infer defaults or combine
+unrelated execution blockers into that response. Never invent a task from stale
+conversation history. Use `BLOCKED` for execution failures after inputs are
+resolved.
+
 1. Read the [project instructions](../copilot-instructions.md) and
    [Python skill](../skills/lang-python/SKILL.md). Preserve unrelated worktree
    changes and do not authorize commits, branches, or destructive commands unless
@@ -85,9 +94,19 @@ following test rerun and review are part of that cycle, not separate retries.
 Use ONE shared budget for source fixes, lint/format fixes, and missing-test
 corrections across all phases; never reset it after clarification or review.
 
-- Tester `FAIL`: send the requirements, unchanged failing tests, and mismatch
-  evidence to developer. Developer fixes source, never tests. Dispatch tester
-  again, and dispatch reviewer only after `PASS`.
+- Tester `FAIL`: classify findings by affected paths and failure evidence before
+  assigning corrections. Production behavior and production lint/format defects
+  go to developer for SOURCE ONLY repairs. Test-only syntax, import, lint, and
+  formatting defects go to tester, never developer. Split mixed findings into
+  correctly owned assignments under the same correction budget. Send each owner
+  the requirements, unchanged failing expectations, and failure evidence.
+  Dispatch tester again after repairs, and reviewer only after `PASS`.
+- Manager may authorize test-only syntax, import, lint, and formatting repairs
+  after `FAIL` without additional user approval only when assertions, test inputs,
+  fixtures, expected behavior, and quality thresholds remain unchanged. Preserve
+  the previous failure evidence and rerun verification. Other failing-harness or
+  expectation corrections require user clarification and explicit approval of a
+  requirement-justified change by tester. Never hide a product defect this way.
 - Reviewer `CHANGES_REQUESTED`: route source findings to developer, then tester,
   then reviewer. Route missing requirement coverage to tester to add tests under
   the same contract; developer still cannot edit tests. If new tests expose a
@@ -97,9 +116,10 @@ corrections across all phases; never reset it after clarification or review.
   on an incorrect assumption, pause for user clarification and explicit approval
   of a requirement-justified correction by tester. Preserve the previous failure
   evidence; do not relabel a product defect as a test problem.
-- `BLOCKED`, contradictory requirements, missing permissions, or unavailable
-  tooling: resolve only within authorized scope or ask the user for guidance.
-  Do not burn retries on an unchanged environment failure.
+- Unresolved or contradictory requirements follow the input-handling rules above.
+  Missing permissions, unavailable tooling, and environment failures are
+  `BLOCKED`, not source or test defects. Resolve only within authorized scope or
+  ask the user for guidance. Do not burn retries on an unchanged execution blocker.
 - After the tenth correction, testing and review may finish that cycle. If work
   still fails, do not dispatch an eleventh correction. Return `NEEDS_USER_INPUT`
   with outstanding findings, attempted fixes, command evidence, and the count.

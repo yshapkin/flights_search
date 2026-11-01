@@ -52,7 +52,10 @@ for this workflow.
   specific requirement-justified correction. Never silently change it to pass.
 - You may correct test syntax, imports, or formatting within your assigned scope,
   provided you preserve requirement-derived expectations and failure evidence.
-  After `FAIL`, corrections to the failing harness also require that approval.
+  After `FAIL`, manager may authorize nonsemantic test-only repairs under the
+  [failure-routing and approval rules](manager.agent.md#corrections-and-blockers).
+  Other failing-harness or expectation corrections still require user
+  clarification and explicit approval. Preserve prior evidence and rerun checks.
 
 ## Verification
 

@@ -9,12 +9,13 @@ agent: manager
 
 Act as [manager](../agents/manager.agent.md) and execute the supplied task through
 the managed workflow. Use the task, requirements, and explicitly referenced
-attachments provided with this invocation. If no task is supplied, ask the user
-for one and wait; do not invent work from unrelated conversation history.
+attachments provided with this invocation. Validate inputs using the manager's
+[input-handling rules](../agents/manager.agent.md#start-a-task) before execution
+capability checks; do not invent work from unrelated conversation history.
 
-1. Honor an explicitly supplied **Simple** or **Advanced** mode. Otherwise ask
-   the user to choose and wait before delegating. Resolve conflicting choices
-   with the user; do not select or change the mode automatically.
+1. Obtain a task and exactly one **Simple** or **Advanced** mode using those
+   input-handling rules. Honor an explicit mode; otherwise ask and wait before
+   delegating. Do not select or change the mode automatically.
 2. Read the [manager contract](../agents/manager.agent.md),
    [project instructions](../copilot-instructions.md),
    [Python skill](../skills/lang-python/SKILL.md), and selected workflow:

@@ -39,10 +39,12 @@ requirement contract, approval gates, and the shared `correction_count`.
 
 ## Correction Loop
 
-- On tester `FAIL`, manager checks the ten-cycle budget and increments once before
-  dispatching `developer` with requirement IDs, unchanged failing tests, expected
-  versus observed behavior, and tracebacks. Developer fixes SOURCE ONLY, never
-  tests. Manager then invokes tester to rerun preserved regressions and full
+- On tester `FAIL`, manager classifies findings using the
+  [failure-routing and approval rules](../../agents/manager.agent.md#corrections-and-blockers),
+  then checks the ten-cycle budget and increments before each corrective
+  assignment or batch. Dispatch the responsible owner with requirement IDs,
+  unchanged failing expectations, expected versus observed behavior, and
+  tracebacks. Manager then invokes tester to rerun preserved regressions and full
   gates. If `PASS`, manager invokes reviewer; otherwise repeat within the budget.
 - On reviewer production findings, manager allocates the next correction cycle,
   dispatches developer, then tester, then reviewer. No edit may bypass retesting.
@@ -50,10 +52,9 @@ requirement contract, approval gates, and the shared `correction_count`.
   tester to add tests from the existing requirements. Preserve failing assertions.
   If the additions fail, allocate the next cycle to developer's source repair.
   If they pass, send the updated tests and evidence back to reviewer.
-- Test-only lint/format corrections go to tester; production corrections go to
-  developer. Never give developer permission to edit tests or change quality
-  thresholds. Genuine invalid test assumptions require user clarification and
-  explicit approval, not silently rewritten expectations.
+- Never give developer permission to edit tests or change quality thresholds.
+  Genuine invalid test assumptions require user clarification and explicit
+  approval, not silently rewritten expectations.
 - Initial execution is cycle `0`. One correction includes its following test
   rerun and review; those verifications do not increment separately. All failure
   and review paths share a maximum of `10` corrective cycles. Do not reset it.
