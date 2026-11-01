@@ -10,6 +10,22 @@ description: 'Implement, debug, refactor, and test Python code in this repositor
 Use this skill for Python implementation, debugging, dependency management,
 testing, and lint fixes. Follow the repository instructions and existing APIs.
 
+## Local Setup
+
+Install the locked runtime and development dependencies from the repository root
+with `uv sync --locked`. Application, test, lint, and dependency-management
+commands are defined in the [project instructions](../../copilot-instructions.md).
+
+The application uses these environment variables, which can be supplied in the
+Git-ignored `.env` file:
+
+```dotenv
+RAPID_API_HOST=flights-sky.p.rapidapi.com
+RAPID_API_KEY=your-rapidapi-key
+```
+
+Never commit credentials or include real secrets in documentation or test output.
+
 ## Code Style
 - Use 4-space indentation, an 80-character line target, and implicit line
 	continuation inside parentheses. Keep quotes consistent within each file.
@@ -64,7 +80,9 @@ testing, and lint fixes. Follow the repository instructions and existing APIs.
 - Use `pytest.fixture` for setup, parametrize for data-driven tests
 - Use `unittest.mock.patch` or `pytest-mock` for mocking
 - Aim for >80% coverage on business logic
+- Run the coverage gate with
+	`uv run pytest tests/ --cov=src --cov-report=term-missing --cov-fail-under=80`
 - Place unit tests in `tests/` and run focused tests immediately after behavior changes
-- Run the unit test suite with `uv run pytest tests/`
-- Run lint checks with `uv run ruff check src/ tests/`
-- Check formatting with `uv run ruff format --check src/ tests/`
+- Use the suite, lint, and formatting commands from the
+	[project instructions](../../copilot-instructions.md) instead of maintaining
+	duplicate command definitions here.

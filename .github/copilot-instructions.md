@@ -6,6 +6,22 @@
 
 Place new code, unit tests, and specifications in their respective directories.
 
+## Copilot documentation
+
+- Keep `README.md` limited to the project title and a concise project description.
+	Do not add setup commands, development guidance, Copilot workflows, or copies
+	of instructions to it.
+- Store all Copilot instructions and supporting documentation in this file or
+	`.github/skills/<skill-name>/` (`SKILL.md` and its supporting resources).
+- Use this file for repository-wide rules and skills for task-specific guidance,
+	workflow usage, tooling details, and client compatibility documentation.
+- Maintain a single authoritative source for each instruction or documented
+	procedure. Reference that source instead of duplicating its content elsewhere.
+- Keep agent profiles and prompt entry points in their required native locations,
+	`.github/agents/` and `.github/prompts/`. Limit them to role definitions and
+	invocation contracts; reference shared instructions and skills rather than
+	copying general documentation into them.
+
 ## Python tooling
 
 Follow the Google Python Style Guide:
