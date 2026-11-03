@@ -1,0 +1,15 @@
+{
+  "servers": {
+    "rapidapi-flights": {
+      "type": "stdio",
+      "command": "uv",
+      "args": [
+        "--directory",
+        "${workspaceFolder}",
+        "run",
+        "python",
+        "src/rapid_api_mcp_server.py"
+      ]
+    }
+  }
+}
